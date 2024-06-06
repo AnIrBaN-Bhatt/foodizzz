@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+    color: #ebe7ef;
+    font-synthesis: none;
+    min-height: 80rem;
+}
+/* Navbar.transparent-navbar{
+    position: absolute !important; 
+    width: 100%;
+    z-index: 10;
+    background-color: transparent ;
+}
+a.navbar-brand {
+    margin-left: 6%;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    color: white !important;
+}
+#navbarNav,#navbarNav a{
+
+    color: white !important;
+    justify-content: end;
+    font-size: 1.3rem;
+    margin-right: 6%;
+} */
+.navbar.transparent-navbar{
+    position: absolute !important; 
+    width: 90%;
+    z-index: 10;
+    background-color: transparent ;
+    margin-left: 5%;
+}
+ .navbar-brand {
+    margin-left: 6%;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem !important;
+    color: white !important;
+}
+
+#carousel{
+    max-height: 700px;
+}
+.carousel-item img {
+    max-height: 700px;
+    width: 100%;
+    height: 700px; 
+    object-fit: cover;
+}
+
+.card,.card img{
+    border-radius: 7% !important; 
+}
+#searchBar input{
+    color:#ffff !important ;
+}
+#searchBar input::placeholder {
+    color: #ffffff !important;
+    opacity: 1;
+}
+.btn.ui-button{
+    background-color: #ffff !important;
+    color:black ;
+}
+
+/* .menu-list{
+    display:grid;
+    justify-content: center;
+    grid-template-rows:auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 3%;
+} */
